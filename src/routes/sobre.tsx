@@ -11,13 +11,13 @@ export const Route = createFileRoute("/sobre")({
       {
         name: "description",
         content:
-          "Conheça Thais Cerqueira, psicopedagoga clínica e institucional dedicada a compreender, acolher e favorecer a aprendizagem de cada aluno.",
+          "Conheça Thais Cerqueira, psicopedagoga clínica e institucional dedicada a compreender, acolher e favorecer a aprendizagem de cada paciente.",
       },
       { property: "og:title", content: "Sobre — Thais Cerqueira, Psicopedagoga" },
       {
         property: "og:description",
         content:
-          "Psicopedagoga clínica e institucional, com um olhar individualizado para cada aluno.",
+          "Psicopedagoga clínica e institucional, com um olhar individualizado para cada paciente.",
       },
     ],
   }),
@@ -29,13 +29,13 @@ const pilares = [
     icon: Heart,
     titulo: "Acolhimento",
     texto:
-      "Escuta sem julgamentos, para que aluno e família se sintam seguros desde a primeira conversa.",
+      "Escuta sem julgamentos, para que paciente e família se sintam seguros desde a primeira conversa.",
   },
   {
     icon: Star,
     titulo: "Individualidade",
     texto:
-      "Nenhum plano de trabalho é igual a outro: cada aluno tem sua história, seu ritmo e suas possibilidades.",
+      "Nenhum plano de trabalho é igual a outro: cada paciente tem sua história, seu ritmo e suas possibilidades.",
   },
   {
     icon: GraduationCap,
@@ -77,20 +77,35 @@ function Sobre() {
             </p>
             <div className="mt-6 space-y-4 leading-relaxed text-muted-foreground">
               <p>
-                Psicopedagoga dedicada a compreender os caminhos — e os obstáculos
-                — da aprendizagem. Seu trabalho nasce da escuta atenta da história
-                de cada aluno e se apoia em investigação rigorosa, intervenção
-                individualizada e diálogo constante com famílias e escolas.
+                Meu trabalho na Psicopedagogia Clínica é dedicado à compreensão
+                individualizada do processo de aprendizagem, considerando as
+                particularidades, potencialidades e necessidades de cada
+                paciente. Realizo investigação e avaliação psicopedagógica,
+                buscando compreender aspectos que possam estar relacionados às
+                dificuldades apresentadas, para então desenvolver um plano de
+                intervenção personalizado e adequado a cada caso.
               </p>
               <p>
-                Acredita que toda criança pode aprender quando é compreendida em
-                sua individualidade e acolhida emocionalmente. Por isso, une
-                técnica e sensibilidade para transformar dificuldades em
-                conquistas.
+                A atuação pode envolver demandas relacionadas à aprendizagem,
+                atenção, leitura, escrita, matemática, habilidades cognitivas,
+                desenvolvimento e aspectos emocionais que possam interferir no
+                aprender. O atendimento é realizado de forma individualizada,
+                acolhedora e ética, com estratégias planejadas a partir das
+                necessidades observadas durante o processo.
+              </p>
+              <p>
+                Quando necessário, também realizo orientação à família e
+                articulação com a escola e outros profissionais, favorecendo um
+                olhar integrado sobre o desenvolvimento e a aprendizagem. Meu
+                propósito é oferecer um espaço de escuta, investigação e
+                intervenção, respeitando a singularidade de cada paciente e
+                construindo, junto à família, caminhos possíveis para o seu
+                desenvolvimento.
               </p>
             </div>
             <blockquote className="mt-8 rounded-2xl border-l-4 border-gold bg-card px-6 py-5 font-display text-xl italic leading-relaxed text-foreground">
-              "Aprender é transformar possibilidades em conquistas."
+              "Psicopedagogia é olhar para além da dificuldade: é compreender o
+              processo para favorecer novas possibilidades de aprendizado."
             </blockquote>
           </div>
         </div>

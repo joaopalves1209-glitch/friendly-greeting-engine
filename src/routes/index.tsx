@@ -53,7 +53,7 @@ const destaques = [
   {
     icon: Sparkles,
     titulo: "Intervenção individualizada",
-    texto: "Planos de estudo construídos a partir das necessidades de cada aluno.",
+    texto: "Planos de estudo construídos a partir das necessidades de cada paciente.",
   },
   {
     icon: HeartHandshake,
@@ -86,7 +86,7 @@ function Index() {
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
               Um olhar individualizado para compreender, acolher e favorecer a
-              aprendizagem — respeitando o tempo e a história de cada aluno.
+              aprendizagem — respeitando o tempo e a história de cada paciente.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
@@ -161,7 +161,7 @@ function Index() {
           </div>
           <div className="grid gap-3">
             {[
-              "Escuta cuidadosa da história escolar de cada aluno",
+              "Escuta cuidadosa da história escolar de cada paciente",
               "Avaliação e devolutivas claras para a família",
               "Trabalho em parceria com a escola",
               "Acolhimento e respeito ao ritmo de cada criança",
@@ -234,7 +234,7 @@ function Index() {
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
           O primeiro passo é uma conversa acolhedora para entender a história e
-          as necessidades de cada aluno.
+          as necessidades de cada paciente.
         </p>
         <Link
           to="/contato"
