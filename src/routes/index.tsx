@@ -9,6 +9,8 @@ import {
   Sparkles,
   Users,
 } from "lucide-react";
+import { WHATSAPP_URL } from "@/lib/contato";
+import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 
 import thaisFoto from "@/assets/thais-foto.jpg.asset.json";
 
