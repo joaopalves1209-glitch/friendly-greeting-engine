@@ -90,8 +90,8 @@ function Servicos() {
           <p className="mt-5 leading-relaxed text-muted-foreground">
             Cada aluno traz uma história única. O trabalho psicopedagógico
             investiga essa história, identifica o que dificulta a aprendizagem e
-            constrói, junto com a família e a escola, caminhos para que o aluno
-            avince com confiança.
+constrói, junto com a família e a escola, caminhos para que o aluno
+            avance com confiança.
           </p>
         </div>
 
