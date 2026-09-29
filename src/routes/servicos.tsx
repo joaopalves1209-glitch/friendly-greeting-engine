@@ -10,6 +10,7 @@ import {
   Sparkles,
   Users,
 } from "lucide-react";
+import { WHATSAPP_URL } from "@/lib/contato";
 
 export const Route = createFileRoute("/servicos")({
   head: () => ({
@@ -128,6 +129,17 @@ constrói, junto com a família e a escola, caminhos para que o aluno
           >
             Agendar uma avaliação
           </Link>
+          <p className="mt-4 text-sm text-muted-foreground">
+            Ou chame direto pelo{" "}
+            <a
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-primary hover:underline"
+            >
+              WhatsApp
+            </a>
+          </p>
         </div>
       </section>
     </div>

@@ -1,5 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { CalendarCheck, ClipboardList, MessagesSquare } from "lucide-react";
+import { CalendarCheck, ClipboardList, Instagram, MessagesSquare } from "lucide-react";
+import {
+  INSTAGRAM_HANDLE,
+  INSTAGRAM_URL,
+  WHATSAPP_DISPLAY,
+  WHATSAPP_URL,
+} from "@/lib/contato";
+import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 
 export const Route = createFileRoute("/contato")({
   head: () => ({
@@ -86,12 +93,29 @@ function Contato() {
             Atendimento psicopedagógico clínico e institucional, presencial e
             com acompanhamento próximo das famílias.
           </p>
-          <a
-            href="https://wa.me/"
-            className="mt-7 inline-flex items-center justify-center rounded-full bg-primary px-8 py-3.5 text-sm font-semibold text-primary-foreground shadow-sm transition-colors hover:bg-primary/90"
-          >
-            Chamar no WhatsApp
-          </a>
+          <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
+            <a
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2.5 rounded-full bg-primary px-8 py-3.5 text-sm font-semibold text-primary-foreground shadow-sm transition-colors hover:bg-primary/90"
+            >
+              <WhatsAppIcon className="h-4.5 w-4.5" />
+              Agendar pelo WhatsApp
+            </a>
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-full border border-border bg-card px-7 py-3.5 text-sm font-semibold text-foreground transition-colors hover:bg-accent"
+            >
+              <Instagram className="h-4.5 w-4.5 text-primary" />
+              {INSTAGRAM_HANDLE}
+            </a>
+          </div>
+          <p className="mt-4 text-xs text-muted-foreground">
+            WhatsApp {WHATSAPP_DISPLAY}
+          </p>
         </div>
       </section>
     </div>
