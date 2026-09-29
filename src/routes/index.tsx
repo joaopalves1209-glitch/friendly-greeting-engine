@@ -87,6 +87,10 @@ function Index() {
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
               Um olhar individualizado para compreender, acolher e favorecer a
               aprendizagem — respeitando o tempo e a história de cada paciente.
+              <br />
+              <span className="text-base text-muted-foreground">
+                Desenvolvimento cognitivo, emocional e das habilidades de aprendizagem.
+              </span>
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
