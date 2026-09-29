@@ -1,5 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { CalendarCheck, ClipboardList, MessagesSquare } from "lucide-react";
+import { CalendarCheck, ClipboardList, Instagram, MessagesSquare } from "lucide-react";
+import {
+  INSTAGRAM_HANDLE,
+  INSTAGRAM_URL,
+  WHATSAPP_DISPLAY,
+  WHATSAPP_URL,
+} from "@/lib/contato";
+import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 
 export const Route = createFileRoute("/contato")({
   head: () => ({
