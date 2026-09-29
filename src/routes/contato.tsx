@@ -32,7 +32,7 @@ const passos = [
     icon: MessagesSquare,
     titulo: "1. Primeira conversa",
     texto:
-      "Um encontro inicial para ouvir a história do aluno, a queixa da família e os objetivos do acompanhamento.",
+      "Um encontro inicial para ouvir a história do paciente, a queixa da família e os objetivos do acompanhamento.",
   },
   {
     icon: ClipboardList,

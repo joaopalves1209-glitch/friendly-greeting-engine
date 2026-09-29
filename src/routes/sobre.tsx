@@ -11,13 +11,13 @@ export const Route = createFileRoute("/sobre")({
       {
         name: "description",
         content:
-          "Conheça Thais Cerqueira, psicopedagoga clínica e institucional dedicada a compreender, acolher e favorecer a aprendizagem de cada aluno.",
+          "Conheça Thais Cerqueira, psicopedagoga clínica e institucional dedicada a compreender, acolher e favorecer a aprendizagem de cada paciente.",
       },
       { property: "og:title", content: "Sobre — Thais Cerqueira, Psicopedagoga" },
       {
         property: "og:description",
         content:
-          "Psicopedagoga clínica e institucional, com um olhar individualizado para cada aluno.",
+          "Psicopedagoga clínica e institucional, com um olhar individualizado para cada paciente.",
       },
     ],
   }),
@@ -29,13 +29,13 @@ const pilares = [
     icon: Heart,
     titulo: "Acolhimento",
     texto:
-      "Escuta sem julgamentos, para que aluno e família se sintam seguros desde a primeira conversa.",
+      "Escuta sem julgamentos, para que paciente e família se sintam seguros desde a primeira conversa.",
   },
   {
     icon: Star,
     titulo: "Individualidade",
     texto:
-      "Nenhum plano de trabalho é igual a outro: cada aluno tem sua história, seu ritmo e suas possibilidades.",
+      "Nenhum plano de trabalho é igual a outro: cada paciente tem sua história, seu ritmo e suas possibilidades.",
   },
   {
     icon: GraduationCap,
@@ -79,7 +79,7 @@ function Sobre() {
               <p>
                 Psicopedagoga dedicada a compreender os caminhos — e os obstáculos
                 — da aprendizagem. Seu trabalho nasce da escuta atenta da história
-                de cada aluno e se apoia em investigação rigorosa, intervenção
+                de cada paciente e se apoia em investigação rigorosa, intervenção
                 individualizada e diálogo constante com famílias e escolas.
               </p>
               <p>

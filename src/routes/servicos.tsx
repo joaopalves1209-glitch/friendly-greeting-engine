@@ -25,7 +25,7 @@ export const Route = createFileRoute("/servicos")({
       {
         property: "og:description",
         content:
-          "Investigação, intervenção e orientação para favorecer a aprendizagem de cada aluno.",
+          "Investigação, intervenção e orientação para favorecer a aprendizagem de cada paciente.",
       },
     ],
   }),
@@ -37,13 +37,13 @@ const servicos = [
     icon: Search,
     titulo: "Investigação e avaliação psicopedagógica",
     texto:
-      "Processo completo de investigação da queixa, análise da história escolar e do desenvolvimento, observações e instrumentos específicos — para compreender como, por que e para quê o aluno aprende.",
+      "Processo completo de investigação da queixa, análise da história escolar e do desenvolvimento, observações e instrumentos específicos — para compreender como, por que e para quê o paciente aprende.",
   },
   {
     icon: BookOpen,
     titulo: "Dificuldades de aprendizagem",
     texto:
-      "Acompanhamento de dificuldades de leitura, escrita, raciocínio lógico-matemático e atenção, com planos de trabalho construídos a partir das reais necessidades do aluno.",
+      "Acompanhamento de dificuldades de leitura, escrita, raciocínio lógico-matemático e atenção, com planos de trabalho construídos a partir das reais necessidades do paciente.",
   },
   {
     icon: Sparkles,
@@ -61,7 +61,7 @@ const servicos = [
     icon: Lightbulb,
     titulo: "Desenvolvimento cognitivo, emocional e das habilidades de aprendizagem",
     texto:
-      "Estímulo às funções cognitivas, à autonomia e à autoestima do aluno, integrando os aspectos emocionais que fazem parte de todo processo de aprendizagem.",
+      "Estímulo às funções cognitivas, à autonomia e à autoestima do paciente, integrando os aspectos emocionais que fazem parte de todo processo de aprendizagem.",
   },
   {
     icon: HeartHandshake,
@@ -73,7 +73,7 @@ const servicos = [
     icon: School,
     titulo: "Psicopedagogia institucional",
     texto:
-      "Assessoria a escolas e instituições na análise de práticas pedagógicas, na formação de equipes e no acompanhamento de alunos com queixas de aprendizagem.",
+      "Assessoria a escolas e instituições na análise de práticas pedagógicas, na formação de equipes e no acompanhamento de pacientes com queixas de aprendizagem.",
   },
 ];
 
@@ -89,9 +89,9 @@ function Servicos() {
             Como o acompanhamento acontece
           </h1>
           <p className="mt-5 leading-relaxed text-muted-foreground">
-            Cada aluno traz uma história única. O trabalho psicopedagógico
+            Cada paciente traz uma história única. O trabalho psicopedagógico
             investiga essa história, identifica o que dificulta a aprendizagem e
-constrói, junto com a família e a escola, caminhos para que o aluno
+constrói, junto com a família e a escola, caminhos para que o paciente
             avance com confiança.
           </p>
         </div>
