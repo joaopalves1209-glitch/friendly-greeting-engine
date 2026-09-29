@@ -89,12 +89,15 @@ function Index() {
               aprendizagem — respeitando o tempo e a história de cada aluno.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link
-                to="/contato"
-                className="inline-flex items-center justify-center rounded-full bg-primary px-7 py-3 text-sm font-semibold text-primary-foreground shadow-sm transition-colors hover:bg-primary/90"
+              <a
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2.5 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-primary-foreground shadow-sm transition-colors hover:bg-primary/90"
               >
+                <WhatsAppIcon className="h-4.5 w-4.5" />
                 Agendar uma conversa
-              </Link>
+              </a>
               <Link
                 to="/servicos"
                 className="inline-flex items-center justify-center rounded-full border border-border bg-card px-7 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-accent"
