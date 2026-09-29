@@ -10,6 +10,7 @@ import {
   Sparkles,
   Users,
 } from "lucide-react";
+import { WHATSAPP_URL } from "@/lib/contato";
 
 export const Route = createFileRoute("/servicos")({
   head: () => ({

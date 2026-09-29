@@ -137,6 +137,26 @@ function Footer() {
               </Link>
             ))}
           </nav>
+          <div className="flex items-center gap-3">
+            <a
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-card text-primary transition-colors hover:bg-accent"
+            >
+              <WhatsAppIcon className="h-4.5 w-4.5" />
+            </a>
+            <a
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-card text-primary transition-colors hover:bg-accent"
+            >
+              <Instagram className="h-4.5 w-4.5" />
+            </a>
+          </div>
         </div>
         <p className="mt-8 text-center text-xs text-muted-foreground sm:text-left">
           © {new Date().getFullYear()} Thais Cerqueira — Psicopedagoga. Todos os direitos reservados.
